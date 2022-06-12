@@ -1,0 +1,72 @@
+.btnContainer {
+    position: relative;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.btnGreen {
+    color: #59ba82;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btnBlack {
+    color: #3a3a3a;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btnRed {
+    color: #ee6d86;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btnIcon {
+    background-color: white;
+    color: #59ba82;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.dropDown {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    right: 30px;
+    top: 45px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.7);
+    z-index: 10;
+}
+
+.view {
+    color: #3a3a3a;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.edit {
+    color: #5dc391;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.remove {
+    color: #ee6d86;
+    font-size: 20px;
+    cursor: pointer;
+}
